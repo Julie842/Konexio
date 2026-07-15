@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Te Moana Nui</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <div>
+      <section id="presentation">
+          <img class="frangipanier" src="img/fleur_de_frangipanier.jpeg" />
+          <strong><h1>Te Moana Nui 🌊</h1></strong>
+          <img class="frangipanier" src="img/fleur_de_frangipanier.jpeg" />
+          <h1>🧑‍🍳 Ma'a Tahiti 👩‍🍳, authentique cuisine tahitienne</h1>
+          <h1>Ia ora na 👋!</h1>
+          <p><br> Bonjour et bienvenue à Te Moana Nui, votre évasion ensoleillée pour déguster les saveurs envoûtantes de Tahiti.</p>
+      </section>
+    </div>
+
+    <div>
+      <section id="starters">
+        <h2>Les entrées</h2>
+          <p onclick="ajouterAuPanier('Salade tahitienne de poisson cru')">Salade tahitienne de poisson cru (Cliquez pour commander)</p>
+          <img src="img/salade_tahitienne_poisson_cru.jpg"/>
+      </section>
+    </div>
+    
+    <div>
+      <section id="maincourses">
+        <h2>Les plats de résistance</h2>
+          <p onclick="ajouterAuPanier('Riz au Rea Tahiti et Umara')">Riz au Rea Tahiti et Umara (Cliquez pour commander)</p>
+          <img src="img/riz-rea-tahiti_umara.jpg"/>
+      </section>
+    </div>
+
+    <div>
+      <section id="desserts">
+        <h2>Les desserts</h2>
+          <p onclick="ajouterAuPanier('Po\'e tahitien à la banane')">Po'e tahitien à la banane (Cliquez pour commander)</p>
+          <img src="img/po_e_tahitien_banane.jpg"/>
+      </section>
+    </div>
+    
+    <div>
+      <section id="beverages">
+        <h2>Les boissons</h2>
+          <p onclick="ajouterAuPanier('Rhum polynésien Mana\'o')">Rhum polynésien Mana'o (Cliquez pour commander)</p>
+          <img src="img/rhum_polynésien_mana_o.jpg"/>
+      </section>
+    </div>
+
+    <div>
+      <section id="welcome">
+        <h1>A to'o ! Au plaisir de vous accueillir 🏄‍♀️!</h1>
+      </section>
+    </div>
+
+    <!-- Zone d'affichage du total de la commande -->
+    <div id="recap-commande" style="text-align: center; margin: 20px; font-family: 'Times New Roman'; font-size: 18px;">
+        <p><strong>Prix Total : <span id="prix-total-affichage">0.00</span> €</strong></p>
+    </div>
+
+    <div>
+      <section id="orders">
+        <h3 class="here">Commandez ici 👉</h3>
+        <h3><a href="#starters"><button>Entrées 🐟</button></a></h3>
+        <h3><a href="#maincourses"><button>Plats de résistance 🍚</button></a></h3>
+        <h3><a href="#desserts"><button>Desserts 🍰</button></a></h3>
+        <h3><a href="#beverages"><button>Boissons 🍹</button></a></h3>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
