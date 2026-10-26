@@ -1,6 +1,7 @@
 # Konexio
+
 Projet Konexio : page Internet de commandes de plats dans un restaurant
-🌊 Bienvenue dans le projet Te Moana Nui, une application web interactive d'un restaurant de spécialités tahitiennes (Ma'a Tahiti). 
+
 Ce projet permet d'afficher la carte du restaurant et de simuler la prise de commande avec un calcul dynamique du prix total du panier.
 📌 Présentation du projet :
 Ce projet est une application front-end simple développée en HTML5, CSS3 et JavaScript. L'objectif principal est d'offrir une interface conviviale pour découvrir les plats traditionnels polynésiens et de proposer un système interactif de commande.
