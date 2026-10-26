@@ -7,7 +7,7 @@ Ce projet est une application front-end simple développée en HTML5, CSS3 et Ja
 Features (fonctionnalités) :
 Carte interactive : présentation dynamique des entrées, plats, desserts et boissons.
 Ajout au panier au clic : il suffit de cliquer sur le nom d'un produit pour l'ajouter à la commande.
-Calcul dynamique du panier : le total en euros (€) se met à jour automatiquement en temps réel.
+Calcul dynamique du panier : le total en euros se met à jour automatiquement en temps réel.
 Navigation rapide : des boutons ancres en bas de page permettent de naviguer directement vers la section souhaitée.
 Suivi console : un récapitulatif textuel complet s'affiche dans la console développeur à chaque ajout de produit.
 🛠️ Technologies utilisées :
