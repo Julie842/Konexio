@@ -7,7 +7,7 @@ Ce projet permet d'afficher la carte du restaurant et de simuler la prise de com
 📌 Présentation du projet :
 Ce projet est une application front-end simple développée en HTML5, CSS3 et JavaScript. L'objectif principal est d'offrir une interface conviviale pour découvrir les plats traditionnels polynésiens et de proposer un système interactif de commande.
 
-🖱️ Features (fonctionnalités) :
+🚀 Features (fonctionnalités) :
 Carte interactive : présentation dynamique des entrées, plats, desserts et boissons.
 Ajout au panier au clic : il suffit de cliquer sur le nom d'un produit pour l'ajouter à la commande.
 Calcul dynamique du panier : le total en euros se met à jour automatiquement en temps réel.
